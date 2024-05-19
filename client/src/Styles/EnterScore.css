@@ -1,0 +1,106 @@
+.enterScoreContainer h3 {
+    padding: 3vw;
+    font-size: 4.5vw;
+    margin: 0;
+}
+
+.enterScoreContainer p {
+    padding: 0vw 3vw 3vw 3vw;
+    font-size: 4vw;
+}
+
+.scoreForm {
+    padding: 0vw 3vw 3vw 3vw;
+    width: 100%;
+}
+
+.scoreForm div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreForm div select {
+    flex-grow: 1;
+    margin-right: 2vw;
+    font-size: 4vw;
+    border: 2px solid black;
+    padding: 2vw 1vw;
+    color: black;
+}
+
+.scoreForm div button {
+    font-size: 4vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2vw;
+    background-color: #787c7fff;
+    color: white;
+}
+
+/* For larger than phone screen size (Desktops or iPads) */
+@media only screen and (min-width: 601px) {
+    .enterScoreContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .enterScoreContainer h3 {
+        padding: 30px 20px 20px 20px;
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .enterScoreContainer p {
+        padding: 0px 20px 20px 20px;
+        font-size: 25px;
+    }
+
+    .scoreForm {
+        padding: 0px 20px 20px 20px;
+        width: 800px;
+        max-width: 800px;
+    }
+
+    .scoreForm div select {
+        margin-right: 20px;
+        font-size: 25px;
+        padding: 10px;
+        overflow: hidden;
+        width: 800px;
+    }
+
+    .scoreForm div select:hover {
+        cursor: pointer;
+    }
+
+    .scoreForm div button {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+
+    .scoreForm div button:hover {
+        cursor: pointer;
+        background-color: #69a964;
+    }
+
+    .enterScoreContainer div .errorContainerDelete {
+        font-size: 25px;
+        margin-left: 20px;
+        width: 760px;
+        padding: 10px 20px;
+    }
+
+    .enterScoreContainer div .errorContainerDelete .closeDiv img {
+        width: 30px;
+    }
+
+    .enterScoreContainer div .errorContainerDelete .closeDiv img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .enterScoreContainer div .errorContainerDelete .closeDiv {
+        justify-content: flex-end;
+    }
+}

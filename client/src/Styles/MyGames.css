@@ -1,0 +1,212 @@
+.myGamesContainerContainer {
+    margin-bottom: 10vw;
+}
+
+.myGamesContainerContainer div h3 {
+    font-size: 4.5vw;
+}
+
+.outerContainer {
+    display: block;
+    width: 94vw;
+    margin: 0vw 3vw 3vw 3vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.myGamesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myGamesContainer div {
+    display: flex;
+    align-items: center;
+    margin: 4vw 0vw 4vw 0vw;
+}
+
+.myGamesContainer img {
+    width: 4vw;
+    height: 5vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+.myGamesContainer p {
+    padding: 2vw;
+    font-size: 4vw;
+}
+
+.imageDivContainer {
+    flex-grow: 1;
+}
+
+.myGamesContainer button {
+    font-size: 3.5vw;
+    padding: 2vw;
+    background-color: lightcoral;
+    border: 2px solid black;
+    margin-right: 2vw;
+    color: black;
+}
+
+h4 {
+    font-size: 4.5vw;
+    text-align: center;
+    margin: 0;
+}
+
+.podiumOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.podiumOne img {
+    width: 15vw;
+    height: 15vw;
+}
+
+.podiumOne p {
+    margin-left: 2vw;
+    padding: 0;
+    font-size: 7vw;
+}
+
+.podiumTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.podiumTwo img {
+    width: 12vw;
+    height: 12vw;
+}
+
+.podiumTwo p {
+    margin-left: 2vw;
+    padding: 0;
+    font-size: 6vw;
+}
+
+.podiumThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.podiumThree img {
+    width: 10vw;
+    height: 10vw;
+}
+
+.podiumThree p {
+    margin-left: 2vw;
+    padding: 0;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+/* For larger than phone screen size (Desktops or iPads) */
+@media only screen and (min-width: 601px) {
+    .outerContainer:hover {
+        transform: scale(1.01);
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .myGamesContainerContainer {
+        margin: 0px auto 80px auto;
+        display: flex;
+        justify-content: center;
+        width: 800px;
+    }
+
+
+    .myGamesContainerContainer a:hover {
+        cursor: pointer;
+    }
+
+    .smallThingy {
+        width: 800px;
+    }
+
+    .myGamesContainer img {
+        width: 30px;
+        height: 40px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    .imageDivContainer {
+        width: 650px;
+        max-width: 650px;
+    }
+
+    .imageDivContainer div:first-child {
+        width: 80px;
+        max-width: 100px;
+    }
+
+    .imageDivContainer div:hover {
+        transform: scale(1.01);
+    }
+
+    .myGamesContainer button {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin-right: 30px;
+    }
+
+    .myGamesContainer button:hover {
+        background-color: rgb(238, 75, 75);
+        cursor: pointer;
+    }
+
+    .myGamesContainerContainer div h3 {
+        padding: 30px 20px 20px 0px;
+        margin: 0px;
+        font-size: 25px;
+    }
+
+    .outerContainer {
+        width: 800px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .myGamesContainer div {
+        margin: 20px 0px 20px 0px;
+        width: 250px;
+    }
+
+    .myGamesContainer div:first-of-type:hover {
+        cursor: pointer;
+    }
+
+    .myGamesScoreTableContainer {
+        margin: auto;
+    }
+
+    .oneResult {
+        max-width: 910px;
+    }
+
+    .myGamesLeaveButtonContainer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .myGamesContainer p {
+        font-size: 25px;
+        padding: 5px;
+    }
+}

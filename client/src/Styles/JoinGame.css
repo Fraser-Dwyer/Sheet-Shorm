@@ -1,0 +1,128 @@
+.lobbyInputContainer {
+    width: 94vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 3vw;
+}
+
+.lobbyInputContainer form div label {
+    width: 100%;
+    display: block;
+}
+
+.lobbyInputContainer form div {
+    margin-bottom: 3vw;
+    font-size: 4.5vw;
+}
+
+.lobbyInputContainer form div input {
+    font-size: 4.5vw;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1vw;
+}
+
+
+.lobbyInputContainer div button {
+    font-size: 4.5vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1vw;
+    background-color: #787c7fff;
+    color: white;
+}
+
+.lobbyInputButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.notErrorDivJoin {
+    border: 2px solid black;
+}
+
+.errorDivJoin {
+    border: 2px solid red;
+}
+
+.errorContainerJoin {
+    width: calc(88vw - 4px);
+    background-color: lightcoral;
+    padding: 1vw;
+    font-size: 4.5vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 0vw 3vw 0vw;
+}
+
+.successContainerJoin {
+    width: calc(88vw - 4px);
+    background-color: lightgreen;
+    padding: 1vw;
+    font-size: 4.5vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 0vw 3vw 0vw;
+}
+
+/* For larger than phone screen size (Desktops or iPads) */
+@media only screen and (min-width: 601px) {
+    .joinGameContainerContainer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .joinGaimeContainer {
+        width: 800px;
+        max-width: 800px;
+    }
+
+    .joinGaimeContainer h3 {
+        font-size: 30px;
+        margin: 30px 0px 15px 0px;
+    }
+
+    .lobbyInputContainer {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    .lobbyInputContainer form div {
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .lobbyInputContainer form div input {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .lobbyInputContainer div button {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .lobbyInputContainer div button:hover {
+        cursor: pointer;
+        background-color: #69a964;
+    }
+
+    .errorContainerJoin {
+        width: 100%;
+        padding: 10px;
+        font-size: 25px;
+        margin: 15px 0px 15px 0px;
+    }
+}
