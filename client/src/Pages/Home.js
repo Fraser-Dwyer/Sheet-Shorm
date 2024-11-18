@@ -3,6 +3,7 @@ import { useCallback, useContext, useEffect, useState } from "react";
 import { UserContext } from "../UserContext";
 import { useNavigate } from "react-router-dom";
 import ScoreTable from "../Components/ScoreTable";
+import Modal from "../Components/Modal";
 
 export default function Home({ baseURL }) {
   const { userInfo } = useContext(UserContext);
@@ -94,6 +95,8 @@ export default function Home({ baseURL }) {
             />
           </div>
         )}
+
+        <Modal />
 
         <div className="menuButtonContainer">
           <button onClick={() => navigate("/post-score")}>
