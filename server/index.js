@@ -20,7 +20,7 @@ const PORT = 8000;
 connectDB();
 // Production:  "https://sheetstorm.co.uk"
 // Development: "http://localhost:3000"
-app.use(cors({ credentials: true, origin: "https://sheetstorm.co.uk" }));
+app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
